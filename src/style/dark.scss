@@ -1,0 +1,149 @@
+.app.dark {
+  background-color: rgb(29, 32, 57);
+  color: #fff;
+
+  .chart {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    color: #fff;
+
+    .chartGrid {
+      stroke: rgb(228, 228, 228, 0.219);
+    }
+  }
+
+  .widget {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    background-color: rgb(38, 44, 73);
+    color: #fff;
+  }
+
+  .featured {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    background-color: rgb(38, 44, 73);
+    color: #fff;
+
+    .top {
+      .title {
+        color: #fff;
+      }
+    }
+
+    .bottom {
+      p {
+        color: #fff;
+      }
+
+      .summary {
+        .item {
+          .itemTitle {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .listContainer {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    background-color: rgb(38, 44, 73);
+    color: #fff;
+
+    .listTitle {
+      color: #fff;
+    }
+  }
+
+  .table {
+    background-color: rgb(38, 44, 73);
+    color: #fff;
+
+    .tableCell {
+      color: #fff;
+    }
+  }
+
+  .navbar {
+    color: #fff;
+    border-color: #333;
+
+    .search {
+      border-color: gray;
+    }
+  }
+
+  .sidebar {
+    background-color: rgb(29, 32, 57);
+    border-color: #333;
+
+    .top {
+      .logo {
+        color: #fff;
+      }
+
+      hr {
+        border-color: #333;
+      }
+    }
+
+    ul {
+      p {
+        color: #fff;
+      }
+
+      li {
+        span {
+          color: #fff;
+        }
+
+        &:hover {
+          background-color: rgb(38, 44, 73);
+        }
+
+        .icon {
+          color: #fff;
+        }
+
+      }
+    }
+  }
+
+  .datatable {
+    .MuiDataGrid-columnHeaderTitle,
+    .MuiDataGrid-cellContent,
+    .MuiToolbar-root,
+    .cellWithImage {
+      color: #fff;
+    }
+
+    .cellWithStatus {
+      color: #fff;
+      border: none;
+    }
+
+    .cellAction {
+      color: #fff;
+
+      .viewButton,
+      .deleteButton {
+        color: #fff;
+        border: 1px solid #fff;
+        background-color: transparent;
+      }
+    }
+  }
+
+  input {
+    background-color: transparent;
+    color: #fff;
+
+    &:focus,
+    :hover,
+    :active {
+      background-color: transparent;
+    }
+  }
+}
