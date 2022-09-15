@@ -1,3 +1,3 @@
 Dashboard Crud React Node JS
 
-[alt text](./imageDashboard.png?raw=true)
+<img src="./imageDashboard.png" alt="Alt text" title="Optional title">
